@@ -8,7 +8,7 @@ import ShopsPage from './pages/ShopsPage'
 import ShopDetailPage from './pages/ShopDetailPage'
 import ProductPage from './pages/ProductPage'
 import CartPage from './pages/CartPage'
-import CheckoutPage from './pages/CheckOutPage'
+import CheckoutPage from './pages/CheckoutPage'
 import DashboardPage from './pages/DashBoardPage'
 import AuthPage from './pages/AuthPage'
 
