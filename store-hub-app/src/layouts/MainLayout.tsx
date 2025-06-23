@@ -16,7 +16,7 @@ export default function MainLayout(): JSX.Element {
   return (
     <>
       <Navbar bg="light" expand="lg" sticky="top" className="shadow-sm">
-        <div className="container-fluid">
+        <div className="container">
           <Navbar.Brand as={NavLink} to="/" className="fw-bold">
             StoreHub
           </Navbar.Brand>
@@ -29,7 +29,7 @@ export default function MainLayout(): JSX.Element {
                     to={to}
                     end={to === '/'}
                     className={({ isActive }) =>
-                      `nav-link${isActive ? ' active fw-semibold' : ''}`
+                      `nav-link${isActive ? ' active fw-bold' : ''}`
                     }
                   >
                     {label}
@@ -41,7 +41,7 @@ export default function MainLayout(): JSX.Element {
         </div>
       </Navbar>
 
-      <main className="container-fluid my-4">
+      <main className="">
         <Outlet />
       </main>
 

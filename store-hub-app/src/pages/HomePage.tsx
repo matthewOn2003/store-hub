@@ -21,7 +21,7 @@ export default function HomePage(): JSX.Element {
       {/* Hero */}
       <header className="py-5 text-center bg-light border-bottom">
         <div className="container">
-          <h1 className="display-4 fw-bold mb-3">Welcome to StoreHub adakbkabfjkaffkjab</h1>
+          <h1 className="display-4 fw-bold mb-3">Welcome to StoreHub</h1>
           <p className="lead text-muted mb-4">
             Discover local stores, place orders instantly, and enjoy a seamless shopping experience.
           </p>
